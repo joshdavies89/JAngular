@@ -1,3 +1,7 @@
+
+# Created by https://www.gitignore.io/api/node,bower
+
+### Node ###
 # Logs
 logs
 *.log
@@ -31,3 +35,10 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+
+### Bower ###
+bower_components
+.bower-cache
+.bower-registry
+.bower-tmp
