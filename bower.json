@@ -24,7 +24,8 @@
     "tests"
   ],
   "dependencies": {
-    "singularity": "^1.6.2"
+    "singularity": "^1.6.2",
+    "bourbon": "^4.2.6"
   },
   "devDependencies": {
     "compass-breakpoint": "breakpoint-sass#^2.6.1"
