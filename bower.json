@@ -25,7 +25,9 @@
   ],
   "dependencies": {
     "singularity": "^1.6.2",
-    "bourbon": "^4.2.6"
+    "bourbon": "^4.2.6",
+    "angular": "1.5.0",
+    "angular-route": "^1.5.0"
   },
   "devDependencies": {
     "compass-breakpoint": "breakpoint-sass#^2.6.1"
