@@ -5,7 +5,7 @@ module.exports = function(grunt) {
   // Define our theme directory
   var themeDir = 'www';
   // Specify where to find dependencies we load in with Bower
-  var sassLib = ['lib'];
+  var sassLib = ['www/lib'];
   // Define the CSS files we want compiled from SCSS files
   var sassFiles = {};
   sassFiles[themeDir + '/css/style.css'] = themeDir + '/scss/style.scss';
