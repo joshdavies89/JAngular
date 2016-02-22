@@ -136,6 +136,6 @@
 		"../lib/singularity/stylesheets/singularitygs/api/_isolation.scss",
 		"../lib/singularity/stylesheets/singularitygs/api/_calc.scss"
 	],
-	"mappings": "AAIA,IAAI,CAAA;EACF,gBAAgB,EAAE,GAAI;CACvB",
+	"mappings": "AAQA,IAAI,CAAA;EACF,gBAAgB,EAAE,KAAM;CACzB",
 	"names": []
 }

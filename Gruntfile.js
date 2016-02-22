@@ -31,6 +31,18 @@ module.exports = function(grunt) {
         files: sassFiles,
       }
     },
+    sass_globbing: {
+      your_target: {
+        files: {
+          'scss/_importMap.scss': 'scss/partials/**/*.scss',
+          'scss/_variablesMap.scss': 'scss/variables/**/*.scss',
+        },
+        options: {
+          useSingleQuotes: false,
+          signature: '// Hello, World!'
+        }
+      }
+    },
     browserSync: {
         dev: {
             bsFiles: {
@@ -61,4 +73,5 @@ module.exports = function(grunt) {
   grunt.registerTask('build', ['sass:build']);
 
   grunt.loadNpmTasks('grunt-browser-sync');
+  grunt.loadNpmTasks('grunt-sass-globbing');
 };

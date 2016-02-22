@@ -1,7 +1,16 @@
+// Import external libraries.
 @import "bourbon/bourbon";
 @import "breakpoint-sass/stylesheets/breakpoint";
 @import "singularity/stylesheets/singularitygs";
 
+// Import local SCSS files.
+@import "base/**/*";
+
 body{
-  background-color: red;
+  background-color: white;
+}
+
+
+.container{
+
 }
