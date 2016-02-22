@@ -13,6 +13,7 @@ module.exports = function(grunt) {
 
   // Project configuration.
   grunt.initConfig({
+
     sass: {
       dev: {
         options: {
@@ -34,8 +35,10 @@ module.exports = function(grunt) {
     sass_globbing: {
       your_target: {
         files: {
-          'scss/_importMap.scss': 'scss/partials/**/*.scss',
-          'scss/_variablesMap.scss': 'scss/variables/**/*.scss',
+          'www/scss/base/__base.scss': 'www/scss/base/**/*.scss',
+          'www/scss/components/__components.scss': 'www/scss/components/**/*.scss',
+          'www/scss/helpers/__helpers.scss': 'www/scss/helpers/**/*.scss',
+          'www/scss/layout/__layout.scss': 'www/scss/layout/**/*.scss',
         },
         options: {
           useSingleQuotes: false,
